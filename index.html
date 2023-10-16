@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Portofolio | Muhammad Arief Pratama</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  </head>
+  <body id="home" data-bs-theme="dark">
+    <!-- Navbar -->
+    <section id="navbar" class="navbar fixed-top navbar-expand-lg navbar-light shadow" style="background-color: aqua">
+      <div class="container">
+        <a class="navbar-brand text-black" href="#home">Muhammad Arief Pratama</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active text-black" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-black" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-black" href="#project">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-black" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <div class="dropdown">
+            <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon" viewBox="0 0 16 16">
+                <path
+                  d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z"
+                />
+              </svg>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" id="light" onclick="lightMode()">Light mode</a></li>
+              <li><a class="dropdown-item" id="dark" onclick="darkMode()">Dark mode</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Navbar -->
+
+    <!-- Jumbotron -->
+    <section id="jumbotron" class="jumbotron jumbotron-fluid text-center">
+      <div class="container">
+        <img src="img/Foto Arief.png" alt="Muhammad Arief Pratama" width="300px" class="rounded-circle img-thumbnail" style="margin: 10rem 0 3rem 0" />
+        <h1 class="display-4">Muhammad Arief Pratama</h1>
+        <p class="lead" style="margin-bottom: 5rem">Pelajar | Mahasiswa</p>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          id="waves1"
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,160L34.3,160C68.6,160,137,160,206,176C274.3,192,343,224,411,197.3C480,171,549,85,617,85.3C685.7,85,754,171,823,186.7C891.4,203,960,149,1029,122.7C1097.1,96,1166,96,1234,117.3C1302.9,139,1371,181,1406,202.7L1440,224L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!-- Akhir jumbotron -->
+
+    <!-- About -->
+    <section id="about">
+      <div class="container text-center">
+        <div class="row mb-3" style="padding-top: 5rem">
+          <div class="col">
+            <h2>About me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5" style="margin-bottom: 5rem">
+          <div class="col-md-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias numquam odit ullam nemo praesentium deleniti eaque ut excepturi, commodi corrupti sit mollitia impedit tempora architecto.</div>
+          <div class="col-md-4">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, fuga, sequi neque saepe quos sed beatae nostrum illo laudantium dignissimos in omnis numquam nulla vero dolores cum praesentium vitae repellat.
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#9fbceb"
+          fill-opacity="1"
+          d="M0,192L40,176C80,160,160,128,240,144C320,160,400,224,480,240C560,256,640,224,720,208C800,192,880,192,960,208C1040,224,1120,256,1200,245.3C1280,235,1360,181,1400,154.7L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir about -->
+
+    <!-- Project -->
+    <section id="project">
+      <div class="container bg">
+        <div class="row text-center" style="margin: 5rem 0 2rem 0">
+          <div class="col">
+            <h2>My Project</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center" style="padding-bottom: 5rem">
+          <div class="col-md-4" style="margin-bottom: 2rem">
+            <div class="card">
+              <img src="img/project/keyboard1.jpg" class="card-img-top" alt="Project 1" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" style="margin-bottom: 2rem">
+            <div class="card">
+              <img src="img/project/keyboard1.jpg" class="card-img-top" alt="Project 1" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" style="margin-bottom: 2rem">
+            <div class="card">
+              <img src="img/project/keyboard1.jpg" class="card-img-top" alt="Project 1" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          id="waves2"
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,224L34.3,192C68.6,160,137,96,206,112C274.3,128,343,224,411,229.3C480,235,549,149,617,144C685.7,139,754,213,823,208C891.4,203,960,117,1029,112C1097.1,107,1166,181,1234,218.7C1302.9,256,1371,256,1406,256L1440,256L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Warna background darkmode = "#212529" -->
+    <!-- Akhir project -->
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center" style="padding: 5rem 0 2rem 0">
+          <div class="col">
+            <h2>Contact me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="name" />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn" style="background-color: aqua; color: black; margin-bottom: 3rem">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="aqua"
+          fill-opacity="1"
+          d="M0,224L34.3,218.7C68.6,213,137,203,206,186.7C274.3,171,343,149,411,165.3C480,181,549,235,617,224C685.7,213,754,139,823,117.3C891.4,96,960,128,1029,144C1097.1,160,1166,160,1234,138.7C1302.9,117,1371,75,1406,53.3L1440,32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir contact -->
+
+    <!-- Footer -->
+    <footer class="text-black text-center pb-5 pt-3 fs-5">
+      <p>Created by <a href="https://www.instagram.com/ariefff666/" style="color: rgb(175, 31, 190)">Muhammad Arief Pratama</a></p>
+    </footer>
+    <!-- Akhir footer -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+      function darkMode() {
+        var element = document.body;
+        element.dataset.bsTheme = "dark";
+        document.getElementById("waves1").setAttribute("fill", "#212529");
+        document.getElementById("waves2").setAttribute("fill", "#212529");
+      }
+      function lightMode() {
+        var element = document.body;
+        element.dataset.bsTheme = "light";
+        document.getElementById("waves1").setAttribute("fill", "#ffffff");
+        document.getElementById("waves2").setAttribute("fill", "#ffffff");
+      }
+    </script>
+  </body>
+</html>
