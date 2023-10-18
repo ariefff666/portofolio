@@ -1,5 +1,10 @@
 body {
-  min-height: 2000px;
+  transition: background ease-in-out 0.3s;
+  transition: color ease-in-out 0.3s;
+}
+
+.tombol-mode {
+  cursor: pointer;
 }
 
 #jumbotron {
@@ -17,4 +22,44 @@ footer {
 
 section {
   padding-top: 2rem;
+}
+
+.wavesL {
+  fill: white;
+}
+
+.wavesD {
+  fill: #212529;
+}
+
+.karosel {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.karosel-bungkus {
+  background-color: #68a0d7;
+  border: 40px solid #68a0d7;
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+}
+
+.carousel-inner {
+  border-radius: 10px;
+}
+
+.karosel-bungkus img {
+  width: 100%;
+}
+
+.tombol {
+  width: 60px;
+  height: 60px;
+  margin: 20px;
+  background-color: #9fbceb;
+  border-radius: 50%;
+  color: #f53192;
+  box-shadow: 0 10px 20px rgba(255, 26, 26, 0.22);
+  cursor: pointer;
+  border: transparent;
 }
